@@ -1,0 +1,102 @@
+/*mobile start*/
+
+@media (max-width: 1024px) {
+    .validation_container {
+        margin: 10% 30%!important;
+        padding: 15px 15px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 1280px) {
+    .validation_container {
+        margin: 10% 30%!important;
+        padding: 35px 95px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 912px) {
+    .validation_container {
+        margin: 20% 30%!important;
+        padding: 35px 25px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 820px) {
+    .validation_container {
+        margin: 20% 20%!important;
+        padding: 35px 85px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .validation_container {
+        margin: 20% 5%!important;
+        padding: 15px 95px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 414px) {
+    .validation_container {
+        margin: 50% 8%!important;
+        padding: 45px 25px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .attribution{
+        font-size: 15px!important;
+        line-height: 40px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .validation_container {
+        margin: 20% 2%!important;
+
+    }
+   
+    
+}
+
+@media (max-width: 390px) {
+
+    .validation_container {
+        margin: 20% 5%!important;
+        padding: 45px 25px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .validation_container {
+        margin: 20% 5%!important;
+        padding: 45px 25px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+}
+
+@media (max-width: 280px) {
+    .validation_container {
+        margin: 20% 5%!important;
+        padding: 15px 15px!important;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+

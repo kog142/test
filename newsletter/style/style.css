@@ -1,0 +1,268 @@
+@font-face{
+    font-family: roboto-bold;
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: roboto-regular;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+.global_section{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.form_section ul li{
+    margin-left: -40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+}
+
+.form_section h1{
+    font-size: 50px;
+}
+
+.form_section ul li p{
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.form_section{
+    padding: 50px;
+}
+
+.submit{
+    padding: 15px 90px!important;
+    background-color: #242742!important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+form label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+form input{
+    margin-top: 20px;
+    padding: 15px 105px!important;
+    display: block;
+}
+
+.gg-check-o{
+    background-color: #FF6250;
+    color: white;
+}
+
+.email_adress{
+    font-weight: bold;
+    padding-right: 130px;
+}
+
+.error{
+   color: #FF6250;
+   font-size: 14px;
+   font-weight: bold;
+    display: none;
+}
+
+.label{
+    display: flex;
+
+}
+
+input:focus {
+    outline: none!important; /* Supprimer la bordure par défaut */
+    border: none!important; /* Définir une nouvelle bordure, par exemple grise */
+}
+
+/*mobile start*/
+@media (max-width: 414px) {
+    .global_section{
+        display: flex;
+        flex-direction: column!important;
+        justify-content: center;
+    }
+
+    .form_section{
+        order: 2!important;
+    }
+
+    .banner_section{
+        order: 1!important;
+        margin-top: -150px!important;
+        text-align: center!important;
+    }
+
+    .submit{
+        padding: 15px 50px!important;
+        background-color: #242742!important;
+        color: white;
+        border: none;
+        border-radius: 8px;
+      }
+
+      form input{
+        margin-top: 20px;
+        padding: 15px 75px!important;
+        display: block;
+        border-radius: 8px;
+        border: 0.5px solid black;
+    }
+    
+}
+
+@media (max-width: 360px) {
+
+    .submit{
+        padding: 15px 30px!important;
+        background-color: #242742!important;
+        color: white;
+        border: none;
+        border-radius: 8px;
+      }
+
+      form input{
+        margin-top: 20px;
+        padding: 15px 50px!important;
+        display: block;
+        border-radius: 8px;
+        border: 0.5px solid black;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    .submit{
+        padding: 15px 30px!important;
+        background-color: #242742!important;
+        color: white;
+        border: none;
+        border-radius: 8px;
+      }
+
+      form input{
+        margin-top: 20px;
+        padding: 15px 50px!important;
+        display: block;
+        border-radius: 8px;
+        border: 0.5px solid black;
+    }
+    
+}
+
+@media (max-width: 820px) {
+    .banner_section{
+        order: 1!important;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 912px) {
+    .banner_section{
+        order: 1!important;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 280px) {
+
+    .form_section{
+        padding: 20px;
+    }
+
+    .submit{
+        padding: 15px 05px!important;
+        background-color: #242742!important;
+        color: white;
+        border: none;
+        border-radius: 8px;
+      }
+
+      form input{
+        margin-top: 20px;
+        padding: 15px 30px!important;
+        display: block;
+        border-radius: 8px;
+        border: 0.5px solid black;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .global_section{
+        display: flex;
+        flex-direction: column!important;
+        justify-content: center;
+    }
+
+    .form_section{
+        order: 2!important;
+    }
+
+    .banner_section{
+        order: 1!important;
+        margin-top: -140px!important;
+        text-align: center!important;
+    }
+
+    img{
+        width: 100%;
+        height: 20%!important;
+    }
+}
+
+
+
+
+/*mobile end*/
+
+/*validation page*/
+
+#validation{
+    background-color: #242742!important;
+}
+
+.validation_container {
+    margin: 10% 37%;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.validation_container h1{
+    font-size: 35px!important;
+    font-family: roboto-bold;
+    
+}
+
+.validation_container p{
+    font-size: 13px!important;
+    font-family: roboto-regular;
+    line-height: 20.8px;
+    
+}
+
+.email_exemple{
+    font-weight: bold!important;
+}
+
+button{
+    padding: 10px 80px;
+    border: none;
+    background-color:  #242742!important;
+    color:white;
+    border-radius:5px;
+}
+
+a{
+    color:  #FF6250!important;
+    text-decoration: none;
+}
+
+
