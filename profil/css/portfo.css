@@ -1,0 +1,118 @@
+body{background-image: url(img/font.png)}
+
+/*Navbar*/
+nav ul {
+  list-style: none;
+  text-align: center;}
+
+nav ul li {
+  display: inline-block;}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;}
+
+nav ul li a:hover {
+  color: #555;}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;}
+
+nav.fill ul li a {
+  transition: all 2s;}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;}
+
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;}
+
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;}
+/*fin de la navbar*/
+
+/*Presentation*/
+.animation {
+    position: relative;
+    bottom: 860px;
+    left: 38%;
+    width: 50vh;
+    font-size: 28px;
+    background: transparent;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0, 2em;
+}
+
+h1 span {
+    position: relative;
+    right: 20%;
+    font-family: 'Rokkitt', serif;
+    font-size: 50px;
+    opacity: 0;
+    display: inline-block;
+    animation: animate 5s linear forwards;
+    color: white;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+
+.profils{position: relative;left: 65%;top: 35px;width: 20%;border-radius: 25px;}
+
+footer{position: relative;background-color: black;top: 124px;height: 85px;}
