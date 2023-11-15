@@ -1,0 +1,399 @@
+@font-face {
+    font-family:Inter-bold;
+    src: url(../assets/fonts/Inter/Inter-Bold.ttf);
+  }
+
+  @font-face {
+    font-family:Inter-medium;
+    src: url(../assets/fonts/Inter/Inter-Medium.ttf)
+  } 
+
+  @font-face {
+    font-family:Inter-light;
+    src: url(../assets/fonts/Inter/Inter-Light.ttf)
+  }   
+
+.full-container div header {
+    display: flex !important;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size:12px;
+    color: white;
+}
+
+#menu ul li {
+    display: unset;
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+}
+
+#menu ul li:hover{
+    color: rgb(209, 207, 207);
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    background-color: #2b6d7d;
+    border: none;
+}
+
+#menu header{
+    background-color: #2b6d7d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*header fin*/
+/*modal*/
+
+.modal-content form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.popupForm form input{
+    border: 0.5px solid black;
+}
+
+.popupForm h2{
+    margin-top: -10px;
+    font-family: Inter-bold;
+}
+
+.popupForm h1{
+    color: #2b6d7d;
+}
+
+form input{
+    padding: 15px;
+    margin: 10px;
+}
+
+form h1{
+    font-family: Inter-bold;
+}
+
+form p{
+    margin-top: -10px;
+    font-family: Inter-light;
+    font-size: 15px;
+}
+
+#submit{
+    background-color: #2b6d7d;
+    color: white;
+    font-family: Inter-bold;
+    border: none;
+}
+
+.popupForm, .overlay{
+    padding-top: 150px;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1.4;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal{
+    position:absolute;
+    top: 20px;
+    right: 95px;
+    padding: 5px 7px;
+    background-color: #2b6d7d;
+    color: white;
+    border: none;
+    font-family: Inter-bold;
+}
+
+
+.memory{
+    color: black;
+    font-size: 13px;
+    font-family: Inter-bold;
+}
+.memory:hover{
+    color: black;
+}
+/*modal*/
+/*under-header*/
+.avatar{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.avatar h3{
+    padding-left: 20px;
+    color: #2b6d7d;
+}
+
+.under-header-text{
+    color: white;
+    padding-bottom: 190px;
+    padding-top: 150px;
+    font-family: Inter-bold;
+    font-size: 20px;
+    padding-right: 25em;
+    line-height: 1.3;
+}
+
+.under-header-text p{
+    padding-right: 5em;
+    font-family: Inter-light;
+    font-size: 16px;
+}
+
+
+[data-id = 'fs-advantages'] {
+    margin-top: 150px;
+    display: flex !important;
+}
+
+.description-clip{
+    font-family: Inter-light;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-left: 25em;
+    margin-top: -30px;
+}
+
+.description-clip h2{
+    font-family: Inter-bold;
+    font-size: 25px;
+}
+
+[data-id = 'sd-advantages'] {
+    display: flex;
+    margin-top:190px;
+    padding-top: 150px;
+    background-color: #2b6d7d;
+}
+
+[data-id = 'sd-advantages-second-block'] {
+    display: flex;
+    background-color: #2b6d7d;
+}
+
+.sd-motivation{
+    margin-right: 150px;
+    color: white;
+    font-size: 16px;
+    font-family: Inter-light;
+    line-height: 1.3;
+}
+
+.sd-motivation h2{
+    font-size: 25px;
+    font-family: Inter-bold;
+}
+.sd-description{
+    margin-top: -10px;
+    color: white;
+    font-family: Inter-light;
+    font-size: 16px;
+    line-height: 1.3;
+   /* border: 0.5px solid black;*/
+    padding-bottom: 150px;
+
+}
+
+.sd-description h2{
+    font-family: Inter-bold;
+    font-size: 25px;
+}
+
+
+
+.social-media  ul li {
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+}
+[data-id = 'title-rs'] {
+    color: transparent;
+}
+.products ul li{
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+}
+.Entreprise ul li{
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+}
+.Charte ul li{
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+}
+.dead-link{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white !important;
+    font-family: Inter-light;
+    font-size: 12px;
+}
+[data-id = 'title']{
+    color: #2b6d7d;
+    font-family: Inter-bold;
+    font-size: 15px;
+}
+.footer-link {
+    background-color: #23272a;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 150px;
+    padding-right: 100px;
+}
+
+label{
+    color: #F29F05;
+    font-weight: bold;
+}
+label:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.under-header-text-container {
+    position: relative;
+    background-image: url('../assets/images/challenger-stands-front-spooky-castle-illustration.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 150px;
+    padding-right: 100px;
+    z-index: -2;
+  }
+  
+  .under-header-text-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur noire avec opacité de 50% */
+    z-index: -1;
+  }
+  
+
+[data-id = 'fs-advantages']{
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+[data-id = 'sd-advantages']{
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+[data-id = 'sd-advantages-second-block']{
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+
+/*SignIn Page */
+.main-box-content{
+    background-image: url('../assets/images/banner.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box{
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    margin-left: 38em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 50px;
+}
+
+.form-box h1{
+    color:white;
+    font-family: Inter-bold;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.form-box h2{
+    font-family: Inter-bold;
+    font-size: 35px;
+    color: white;
+}
+
+.form-box #submit, input{
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-box #submit{
+    margin-bottom: 20px;
+}
+
+.Usercondition{
+    color: white;
+    font-size: 10px;
+    text-align: left;
+}
+
+.backHomePage{
+    color: white;
+    font-size: 13px;
+    font-family: Inter-light;
+}
+
+/*sidebar*/
+.setting{
+    margin-top: 20em;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    background-color: #2b6d7d !important;
+}
+
+.MuiListItemText-root{
+    font-family: Inter-light;
+    color: white !important;
+}
