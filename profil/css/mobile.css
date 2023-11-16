@@ -1,0 +1,83 @@
+@media  (max-width: 412px) {
+    h1 span{
+        font-size: 40px!important;
+        margin-left: -20px;
+        padding-top: 100px;
+    }
+
+    .projet-1 img {
+        width: 20%!important;
+        margin-left: 30px;
+    }
+
+    .projet-2 img {
+        width: 20%!important;
+        margin-left: 30px;
+    }
+    .skills {
+        padding: 40px 40px!important;
+    }
+    .app {
+        padding: 30px 50px;
+    }
+}
+
+@media  (max-width: 414px) {
+    h1 span{
+        font-size: 40px!important;
+        margin-left: -20px;
+        padding-top: 100px;
+    }
+
+    .projet-1 img {
+        width: 20%!important;
+        margin-left: 30px;
+    }
+
+    .projet-2 img {
+        width: 20%!important;
+        margin-left: 30px;
+    }
+
+    .skills {
+        padding: 40px 40px!important;
+    }
+    .app {
+        padding: 30px 50px;
+    }
+
+    .app img {
+        width: 15%!important;
+        margin-left: 15px;
+    }
+}
+
+@media  (max-width: 375px) {
+    h1 span{
+        font-size: 40px!important;
+        margin-left: -20px;
+        padding-top: 100px;
+    }
+
+    .projet-1 img {
+        width: 15%!important;
+        margin-left: 30px;
+    }
+
+    .projet-2 img {
+        width: 15%!important;
+        margin-left: 30px;
+    }
+
+    .skills {
+        padding: 40px 40px!important;
+    }
+    .app {
+        padding: 30px 50px;
+    }
+
+    .app img {
+        width: 15%!important;
+        margin-left: 15px;
+    }
+}
